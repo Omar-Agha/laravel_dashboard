@@ -1,0 +1,43 @@
+{
+    "hello":"Hello",
+    "switch_to_ar":"switch to arabic",
+    "switch_to_en":"switch to en",
+    "dashboard":"dashboard",
+    "overview":"overview",
+    "pages":"pages",
+    "games":"games",
+    "games_level_1":"Games Level 1",
+    "name":"Name",
+    "description":"Description",
+    "release_date":"Release Date",
+    "actions":"Actions",
+    "game_list":"Games List",
+    "link1":"Link 1",
+    "link2":"Link 2" ,
+    
+    "add_game":"Add Game",
+    "search":"Search",
+    "search_place_holder":"Search...",
+    
+    "some_other_action":"Other Action",
+    "signed_in_as":"Signed in as",
+    "profile":"Profile",
+    "logout":"Logout",
+    "Cancel":"Cancel",
+    "Edit":"Edit",
+    "Delete":"Delete",
+    "Create":"Create",
+    "Update":"Update",
+    "GameName":"GameName",
+    "GameDescription":"GameDescription",
+    "ReleaseDate":"ReleaseDate",
+    "CreateNewGame":"Create new Game",
+    "UpdateRecord":"Update Record",
+    "Warning!":"Warning!",
+    "DeleteConfirmationMessage":"Are you sure you want to delete This Record ?",
+    "Close":"Close",
+    "SomeErrorOccurred":"Some Error Occurred !",
+    "DeletedSuccessfully":"Deleted Successfully"
+
+
+}

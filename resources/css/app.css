@@ -5,3 +5,10 @@
 [x-cloak] {
     display: none;
 }
+input:focus {
+    box-shadow: none !important;
+}
+
+.dash-headline {
+    font-weight: bold;
+}
