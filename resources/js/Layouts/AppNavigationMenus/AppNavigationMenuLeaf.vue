@@ -14,7 +14,7 @@ const props = defineProps({
 
 const isOpen = ref(false)
 
-const active_classes = ref("bg-gray-100 dark:bg-neutral-700 dark:text-neutral-300")
+const active_classes = ref("bg-gray-100 darkxz:bg-neutral-700 darkxz:text-neutral-300")
 
 
 
@@ -24,8 +24,8 @@ const active_classes = ref("bg-gray-100 dark:bg-neutral-700 dark:text-neutral-30
 
 
     <Link dir="auto"
-        class="cursor-pointer w-full flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-neutral-700 rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300"
-        :class="{ 'bg-gray-100 dark:bg-neutral-700 dark:text-neutral-300': route().current(href) }" :href="route(href)">
+        class="cursor-pointer w-full flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-neutral-700 rounded-lg hover:bg-gray-100 darkxz:hover:bg-neutral-700 darkxz:text-neutral-400 darkxz:hover:text-neutral-300"
+        :class="{ 'bg-gray-100 darkxz:bg-neutral-700 darkxz:text-neutral-300': route().current(href) }" :href="route(href)">
     <VIcon :icon="icon" />
     {{ title }}
     </Link>
