@@ -19,6 +19,6 @@ import AppLayout from '@/Layouts/AppLayout.vue';
                 </div>
             </div>
         </div> -->
-        <h1>goo</h1>
+        
     </AppLayout>
 </template>
