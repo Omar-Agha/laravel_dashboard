@@ -23,12 +23,9 @@ Route::middleware([
     ->prefix('dashboard')
     ->group(function () {
         Route::get('/', function () {
-            return Inertia::render('Dashboard');
+            return Inertia::render('Admin/Dashboard');
         })->name('dashboard');
 
 
-    Route::resource('examples', ExampleInertiaController::class)->except(['create', 'edit']);
-
-
-
+        Route::resource('examples', ExampleInertiaController::class)->except(['create', 'edit']);
     });
