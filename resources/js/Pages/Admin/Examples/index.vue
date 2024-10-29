@@ -145,7 +145,7 @@
 
 import { ref, reactive, watch } from 'vue';
 import { VBreadcrumbs, VBtn, VCard, VCardText, VCol, VDataTableServer, VDialog, VExpansionPanel, VExpansionPanels, VList, VListItem, VListItemTitle, VMenu, VRadio, VRadioGroup, VRow, VSelect, VSkeletonLoader, VSpacer, VSwitch, VTextField, VToolbar, VToolbarTitle } from 'vuetify/lib/components/index.mjs';
-import AppLayout from '@/Layouts/AppLayout.vue';
+import AppLayout from '@/Layouts/Admin/AdminLayout.vue';
 import { breadcrumbs, deleteRecordApi, getRecordsListApi, gridHeaders, initialFilterForm } from './core';
 import ConfirmationAlert from '@/Components/ConfirmationDialog.vue';
 import SnackMessage from '@/Components/SnackMessage.vue';

@@ -8,8 +8,9 @@ import { VAppBar, VAppBarNavIcon, VBtn, VCard, VContainer, VIcon, VLayout, VList
 import { useLocale } from 'vuetify/lib/framework.mjs';
 import { translate } from '@/utils/translation';
 import { useI18n } from 'vue-i18n';
-import AppNavigationMenu from './AppNavigationMenus/AppNavigationMenu.vue';
+
 import ApplicationLogo from '@/Components/ApplicationLogo.vue';
+import AppNavigationMenu from './AppNavigationMenus/AppNavigationMenu.vue';
 useI18n
 defineProps({
     title: String,
