@@ -17,8 +17,9 @@ Route::get('/', function () {
 
 
 Route::post('/change-app-language', function () {
-     session(['locale' => request('lang')]);
-    return back();
+    session()->put('lang', request('lang'));
+    app()->setLocale(request('lang'));
+    return app()->getLocale();
 })->name('change-lang');
 
 

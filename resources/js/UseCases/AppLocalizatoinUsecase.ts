@@ -8,7 +8,7 @@ import axios from "axios"
 export function ChangeAppLanguageUseCase(lang: 'ar' | 'en') {
 
     i18n.global.locale.value = lang;
-    axios.post(route('change-lang'), { locale: i18n.global.locale.value }).then(() => {
+    axios.post(route('change-lang'), { lang: i18n.global.locale.value }).then(() => {
         SaveLangToStorage(lang);
         location.reload()
     })

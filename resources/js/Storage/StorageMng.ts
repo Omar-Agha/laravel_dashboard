@@ -1,5 +1,4 @@
 
-
 export function SaveLangToStorage(lang: 'ar' | 'en') {
     localStorage.setItem("locale", lang)
 
