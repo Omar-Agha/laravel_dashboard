@@ -15,6 +15,13 @@ Route::get('/', function () {
     ]);
 });
 
+
+Route::post('/change-app-language', function () {
+     session(['locale' => request('lang')]);
+    return back();
+})->name('change-lang');
+
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
